@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/homeTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/generalmargin"
+        android:paddingBottom="@dimen/emptypadding"
+        android:text="@string/aboutUs"
+        android:textAlignment="center"
+        android:textSize="@dimen/Header"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/homePager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mediumImages"
+        android:layout_marginTop="@dimen/verysmallpadding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeTitleTextView" />
+
+    <TextView
+        android:id="@+id/aboutUsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/smallpadding"
+        android:layout_weight="1"
+        android:text="@string/aboutUsText"
+        android:textAlignment="center"
+        android:textSize="@dimen/generalText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homePager" />
+
+    <TextView
+        android:id="@+id/ownerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/smallpadding"
+        android:layout_marginBottom="@dimen/mediumImages"
+        android:text="@string/owners"
+        android:textSize="@dimen/h2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsTextView" />
+
+    <ImageView
+        android:id="@+id/keaganImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/smallImages"
+        android:layout_marginTop="@dimen/mediumPadding"
+        android:contentDescription="@string/owner"
+        android:src="@mipmap/k_label"
+        app:layout_constraintBottom_toTopOf="@+id/keaganTextView"
+        app:layout_constraintEnd_toStartOf="@+id/jordanImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ownerTextView" />
+
+    <ImageView
+        android:id="@+id/jordanImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/smallImages"
+        android:layout_marginTop="@dimen/mediumPadding"
+        android:contentDescription="@string/owner"
+        android:src="@mipmap/j_label"
+        app:layout_constraintBottom_toTopOf="@+id/jordanTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/keaganImageView"
+        app:layout_constraintTop_toBottomOf="@+id/ownerTextView" />
+
+    <TextView
+        android:id="@+id/jordanTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mediumPadding"
+        android:layout_marginBottom="@dimen/smallpadding"
+        android:text="@string/jordan"
+        android:textSize="@dimen/nameSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/contactButton"
+        app:layout_constraintEnd_toEndOf="@+id/jordanImageView"
+        app:layout_constraintStart_toStartOf="@+id/jordanImageView"
+        app:layout_constraintTop_toBottomOf="@+id/jordanImageView" />
+
+    <TextView
+        android:id="@+id/keaganTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/mediumPadding"
+        android:layout_marginBottom="@dimen/smallpadding"
+        android:text="@string/keagan"
+        android:textSize="@dimen/nameSize"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/phoneButton"
+        app:layout_constraintEnd_toEndOf="@+id/keaganImageView"
+        app:layout_constraintStart_toStartOf="@+id/keaganImageView"
+        app:layout_constraintTop_toBottomOf="@+id/keaganImageView" />
+
+    <Button
+        android:id="@+id/phoneButton"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_marginTop="@dimen/smallMediumPadding"
+        android:layout_marginBottom="@dimen/largePadding"
+        android:background="@drawable/ic_call_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/keaganTextView"
+        app:layout_constraintTop_toBottomOf="@+id/keaganTextView" />
+
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_marginTop="@dimen/smallMediumPadding"
+        android:layout_marginBottom="@dimen/largePadding"
+        android:background="@drawable/ic_info_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/smsButton2"
+        app:layout_constraintStart_toEndOf="@+id/phoneButton2"
+        app:layout_constraintTop_toBottomOf="@+id/jordanTextView" />
+
+    <Button
+        android:id="@+id/smsButton"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_marginTop="@dimen/mediumLargePadding"
+        android:layout_marginBottom="@dimen/largePadding"
+        android:background="@drawable/ic_chat_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/keaganTextView"
+        app:layout_constraintTop_toBottomOf="@+id/keaganTextView" />
+
+    <Button
+        android:id="@+id/phoneButton2"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_marginTop="@dimen/mediumLargePadding"
+        android:layout_marginBottom="@dimen/largePadding"
+        android:background="@drawable/ic_call_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/jordanTextView"
+        app:layout_constraintTop_toBottomOf="@+id/jordanTextView" />
+
+    <Button
+        android:id="@+id/contactButton2"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_marginTop="@dimen/mediumLargePadding"
+        android:layout_marginBottom="@dimen/largePadding"
+        android:background="@drawable/ic_info_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/smsButton"
+        app:layout_constraintStart_toEndOf="@+id/phoneButton"
+        app:layout_constraintTop_toBottomOf="@+id/keaganTextView" />
+
+    <Button
+        android:id="@+id/smsButton2"
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:layout_marginTop="@dimen/mediumLargePadding"
+        android:layout_marginBottom="@dimen/largePadding"
+        android:background="@drawable/ic_chat_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/jordanTextView"
+        app:layout_constraintTop_toBottomOf="@+id/jordanTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

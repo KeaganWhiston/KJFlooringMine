@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_products"
+        android:textAlignment="center"
+        android:textSize="@dimen/Header" />
+
+    <TextView
+        android:id="@+id/product_definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/productDesc"
+        android:textAlignment="center"
+        android:textSize="@dimen/h2" />
+
+    <ImageView
+        android:id="@+id/recycle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/productImage"
+
+        android:maxWidth="800dp"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+</LinearLayout>

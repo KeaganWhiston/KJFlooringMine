@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">KJFlooring</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="aboutUs">KJ Flooring</string>
+    <string name="aboutUsText">We are KJ Flooring!  A local company created here in Windsor.  We
+        offer quality flooring while also offering amazing prices!
+    </string>
+    <string name="generalImages">KJ Flooring Gallery</string>
+    <string name="keagan">Keagan Whiston</string>
+    <string name="jordan">Jordan Florence</string>
+    <string name="owner">Owner</string>
+    <string name="owners">Owners</string>
+
+    <string name="title_calculator">Calculator</string>
+    <string name="title_products">Products</string>
+    <string name="title_contact">Contact Us!</string>
+    <string name="title_credits">Credits</string>
+
+    <string name="main_title">KJFLOORING</string>
+
+    <string-array name="flooring_array">
+        <item>hard wood - morning sun</item>
+        <item>hard wood - night time</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="thank_you">Thank you for using our quoting software: </string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Settings">Settings</string>
+    <string name="call">Call Us</string>
+    <string name="text">Text Us</string>
+    <string name="email">Email Us</string>
+    <string name="contacts">Add To Contacts</string>
+    <string name="social">Visit our social media</string>
+    <string name="location">Where are we located</string>
+    <string name="title_activity_credits">CreditsActivity</string>
+    <string name="creditLink">Credit Link</string>
+    <string name="creditImage">Credit Image</string>
+    <string name="floorImage">Floor Image</string>
+    <string name="homeImage">Home Image</string>
+    <string name="home2Link">https://pixabay.com/photos/kitchen-home-interior-modern-room-2165756/</string>
+    <string name="floor1Link">https://pixabay.com/photos/floor-wood-hardwood-floors-1256804/</string>
+    <string name="floor2Link">https://pixabay.com/photos/wood-planks-wooden-wall-pattern-336589/</string>
+    <string name="home1Link">https://pixabay.com/photos/home-office-notebook-home-couch-569153/</string>
+    <string name="home3Link">https://pixabay.com/photos/chairs-floor-furniture-indoors-2181947/</string>
+    <string name="home4Link">https://pixabay.com/illustrations/carpet-couch-dirty-floor-1853203/</string>
+    <string name="laminate2Link">https://pixabay.com/photos/wood-wooden-boards-wood-planks-411643/</string>
+    <string name="laminate1Link">https://pixabay.com/photos/wooden-wall-backdrop-board-1846867/</string>
+    <string name="tile2Link">https://pixabay.com/photos/floor-stone-stone-floor-tile-tiles-1735046/</string>
+    <string name="vinyl1Link">https://pixabay.com/photos/wooden-floor-backdrop-background-1853411/</string>
+    <string name="tile1Link">https://pixabay.com/photos/tiles-backdrop-bathroom-ceramic-1846980/</string>
+    <string name="laminate3Link">https://pixabay.com/illustrations/parquet-laminate-floor-wall-boards-583691/</string>
+    <string name="pixabay">All images were referenced using pixabay.com</string>
+    <string name="floor3Link">https://pixabay.com/photos/wood-floor-wood-plank-grain-stage-1170744/</string>
+    <string name="squareFootAmount">Enter Square Foot Amount</string>
+    <string name="productImage">Product Image</string>
+    <string name="productDesc">Product Description</string>
+
+
+</resources>

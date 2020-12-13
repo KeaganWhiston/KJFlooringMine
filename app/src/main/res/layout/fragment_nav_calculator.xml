@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_calculator"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/squareFootAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="@integer/ems"
+        android:hint="@string/squareFootAmount"
+        android:inputType="numberDecimal"
+        android:padding="@dimen/smallpadding"
+        android:textAlignment="center"
+        android:textSize="@dimen/Header" />
+
+    <Spinner
+        android:id="@+id/floor_dropdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/smallpadding" />
+
+    <TextView
+        android:id="@+id/totalCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/smallpadding"
+        android:textAlignment="center"
+        android:textSize="@dimen/Header"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/smallpadding"
+            android:text="@string/thank_you"
+            android:textAlignment="center"
+            android:textSize="@dimen/h2" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/smallpadding"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <SwitchPreference
+            android:defaultValue = "false"
+            android:key="measurementSwitch"
+            android:summary="Would you like use metric measurements inside the quote calculator."
+            android:title="Metric System" />
+
+        <ListPreference
+            android:defaultValue = "16"
+            android:entries="@array/font_names"
+            android:entryValues="@array/font_size"
+            android:key="fontSize"
+            android:summary="Would you like to change the font size on the products screen."
+            android:title="Font Size" />
+
+        <EditTextPreference
+            android:defaultValue="Name"
+            android:key="nameEditTextPreference"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Please input your name."
+            android:title="Your name:" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

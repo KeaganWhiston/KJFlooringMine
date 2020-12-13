@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreditsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/creditsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_credits"
+        android:textAlignment="center"
+        android:textSize="@dimen/Header"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/creditsDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/pixabay"
+        android:textAlignment="center"
+        android:textSize="@dimen/h2" />
+
+    <ScrollView
+        android:id="@+id/creditScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/floor1"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/hardwood1" />
+
+            <TextView
+                android:id="@+id/floor1Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/floor1Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/floor2"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/hardwood2" />
+
+            <TextView
+                android:id="@+id/floor2Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/floor2Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/floor3"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/woodfloor" />
+
+            <TextView
+                android:id="@+id/floor3Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/floor3Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/laminate1"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/laminate1" />
+
+            <TextView
+                android:id="@+id/laminate1Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/laminate1Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/laminate2"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/laminate2" />
+
+            <TextView
+                android:id="@+id/laminate2Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/laminate2Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/laminate3"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/laminate3" />
+
+            <TextView
+                android:id="@+id/laminate3Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/laminate3Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/tile1"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/tile1" />
+
+            <TextView
+                android:id="@+id/tile1Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tile1Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/tile2"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/tile2" />
+
+            <TextView
+                android:id="@+id/tile2Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/tile2Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/vinyl1"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/floorImage"
+                android:src="@drawable/vinyl1" />
+
+            <TextView
+                android:id="@+id/vinyl1Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vinyl1Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/home1"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/homeImage"
+                android:src="@drawable/homesplash" />
+
+            <TextView
+                android:id="@+id/home1Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home1Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/home2"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/homeImage"
+                android:src="@drawable/homesplash2" />
+
+            <TextView
+                android:id="@+id/home2Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home2Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/home3"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/homeImage"
+                android:src="@drawable/homesplash3" />
+
+            <TextView
+                android:id="@+id/home3Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home3Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+            <ImageView
+                android:id="@+id/home4"
+                android:layout_width="@dimen/smallImages"
+                android:layout_height="@dimen/smallImages"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/homeImage"
+                android:src="@drawable/homesplash4" />
+
+            <TextView
+                android:id="@+id/home4Link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/home4Link"
+                android:textAlignment="center"
+                android:textSize="@dimen/generalText" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nav_contact"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/call"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h2" />
+
+    <Button
+        android:id="@+id/smsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h2" />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/email"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h2" />
+
+    <Button
+        android:id="@+id/addContactButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/contacts"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h2" />
+
+    <Button
+        android:id="@+id/webButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/social"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h2" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/location"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/h2" />
+
+</LinearLayout>
